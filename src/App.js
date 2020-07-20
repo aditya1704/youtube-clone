@@ -24,7 +24,7 @@ class App extends React.Component {
       params:{
         part:'snippet',
         maxResults: 5,
-        key:'AIzaSyChpAJ9kXMtPSgy51V4PwxZf5yzs96ZtDs',
+        key:process.env.REACT_APP_GOOGLE_API_KEY,
         q:searchTerm
     }
     })
